@@ -20,7 +20,8 @@
 .cover {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .decorated-zone {
@@ -104,6 +105,13 @@
 .title {
   color: var(--secondary-color, #ff0070);
   font-weight: 700;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.sub-title {
+  color: var(--secondary-color, #ff0070);
+  font-weight: 400;
   font-size: inherit;
   line-height: inherit;
 }
